@@ -263,6 +263,8 @@ footer {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0 10px;
+  table-layout: fixed;
+  max-width: 100%;
 }
 
 .table thead th {
@@ -272,6 +274,7 @@ footer {
   font-weight: 700;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  word-break: break-word;
 }
 
 .table tbody td {
@@ -279,6 +282,7 @@ footer {
   padding: 12px 14px;
   border-top: 1px solid #e0d3c4;
   border-bottom: 1px solid #e0d3c4;
+  word-break: break-word;
 }
 
 .table tbody tr td:first-child {
@@ -479,5 +483,14 @@ textarea {
 
   .hero {
     padding-top: 64px;
+  }
+  .table {
+    border-spacing: 0 8px;
+  }
+    
+  .table thead th,
+  .table tbody td {
+    padding: 10px 8px;
+    font-size: 0.9rem;
   }
 }

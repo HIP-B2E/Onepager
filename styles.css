@@ -275,6 +275,9 @@ footer {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   word-break: break-word;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  max-width: 0;
 }
 
 .table tbody td {
@@ -283,6 +286,9 @@ footer {
   border-top: 1px solid #e0d3c4;
   border-bottom: 1px solid #e0d3c4;
   word-break: break-word;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  max-width: 0;
 }
 
 .table tbody tr td:first-child {

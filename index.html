@@ -55,6 +55,17 @@
       margin: 4px 0;
     }
 
+    /* zwischen 900px und 980px: Logos bleiben rechts, bevor sie ausgeblendet werden */
+
+    @media (max-width: 900px) {
+      .hero__grid {
+        grid-template-columns: 1fr 360px;
+      }
+      .hero__visual {
+        order: 0;
+      }
+    }
+    
     /* Kleinere Bildschirme: Logos ausblenden, damit der Textbereich volle Breite hat */
     @media (max-width: 900px) {
       .hero__grid {
